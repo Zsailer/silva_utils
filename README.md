@@ -27,10 +27,18 @@ distance = su.search_for_root_distance(taxon, species_tree, species_list)
 print(distance) # prints 0.560
 ```
 
-
 ## Installation
 
 Clone this repo and install development version using pip:
 ```
 pip install -e .
+```
+
+## Testing
+
+Install pytest and run tests in directory:
+
+```
+cd silva_utils
+pytest
 ```
